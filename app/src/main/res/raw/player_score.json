@@ -1,0 +1,13 @@
+{
+  "players": [
+    {
+      "player_name" : "Player",
+      "score" : [
+        {
+          "personality" : 0,
+          "date" : 0
+        }
+      ]
+    }
+  ]
+}

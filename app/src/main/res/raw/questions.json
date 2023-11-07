@@ -1,0 +1,74 @@
+{
+  "questions": [
+    {
+      "first_group": {
+        "text" : "Персоналії",
+        "question_list": [
+          {
+            "text": "first que",
+            "answer": [
+              {
+                "answer_text" : "Answer",
+                "is_true" : true
+              },
+              {
+                "answer_text" : "Answer2",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer3",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer4",
+                "is_true" : false
+              }
+            ]
+          },
+          {
+            "text": "second que",
+            "answer": [
+              {
+                "answer_text" : "Answer",
+                "is_true" : true
+              },
+              {
+                "answer_text" : "Answer2",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer3",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer4",
+                "is_true" : false
+              }
+            ]
+          },
+          {
+            "text": "third que",
+            "answer": [
+              {
+                "answer_text" : "Answer",
+                "is_true" : true
+              },
+              {
+                "answer_text" : "Answer2",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer3",
+                "is_true" : false
+              },
+              {
+                "answer_text" : "Answer4",
+                "is_true" : false
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
