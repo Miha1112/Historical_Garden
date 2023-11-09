@@ -8,6 +8,15 @@
           "date" : 0
         }
       ]
+    },
+    {
+      "player_name" : "Player2",
+      "score" : [
+        {
+          "personality" : 0,
+          "date" : 0
+        }
+      ]
     }
   ]
 }

@@ -2,10 +2,13 @@ package com.dev.galagan.historicalgarden;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
+import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.google.gson.Gson;
@@ -21,11 +24,18 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
+import java.net.Inet4Address;
 
 public class MainActivity extends AppCompatActivity {
     public static int score = 0;
 
     public static Player[] players;
+    private int[] imgArray = {R.id.q_btn,R.id.q_btn2,R.id.q_btn3,R.id.q_btn4};
+    private int[] resArray = {R.raw.personality,R.raw.personality,R.raw.personality,R.raw.personality};
+    private String[] catNameArray = {"Персоналії","Дати","Категорія 3","Категорія 4"};
+    public static Questions[] questionsArray;
+    public static Integer questionsTheme = R.raw.personality;
+    public static String categoryName = "";
     public static String student_name = "Учень";
     public static int[] last_score = new int[3];
 
@@ -37,25 +47,49 @@ public class MainActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
+        init();
     }
 
     private void init(){
-        jsonParse();
-
+        jsonParsePlayer();
         TextView player_name = findViewById(R.id.player_name);
         player_name.setText(student_name);
         TextView scoreTxt = findViewById(R.id.score_text);
         scoreTxt.setText(Integer.toString(score));
+        setClickListener();
+
+    }
+    private void setClickListener(){
+        ImageView qBtn1 = findViewById(R.id.q_btn);
+        ImageView qBtn2 = findViewById(R.id.q_btn2);
+        ImageView qBtn3 = findViewById(R.id.q_btn3);
+        ImageView qBtn4 = findViewById(R.id.q_btn4);
+
+        qBtn1.setOnClickListener(clickListenerQuestions);
+        qBtn2.setOnClickListener(clickListenerQuestions);
+        qBtn3.setOnClickListener(clickListenerQuestions);
+        qBtn4.setOnClickListener(clickListenerQuestions);
     }
 
+    private final View.OnClickListener clickListenerQuestions = new View.OnClickListener() {
+        @Override
+        public void onClick(View v) {
+            for (int i = 0; i <imgArray.length;i++){
+                if (v.getId()==imgArray[i]){
+                    questionsTheme = resArray[i];
+                    categoryName = catNameArray[i];
+                }
+            }
+            Intent intent = new Intent(v.getContext(), PlayActivity.class);
+            startActivity(intent);
+        }
+    };
 
-
-
-    private void jsonParse() {
+    private void jsonParsePlayer() {
         String fileName = "player.json";
         File file = new File(getFilesDir(),fileName);
         if (!file.exists()){
-            //System.out.println("cards bg from default");
+            System.out.println("players from default");
             String file_name = "";
             InputStream inputStream = getResources().openRawResource(R.raw.player_score);
             try {
@@ -65,11 +99,14 @@ public class MainActivity extends AppCompatActivity {
                 String jsonString = new String(buffer, "UTF-8");
                 JsonElement jsonElement = JsonParser.parseString(jsonString);
                 if (jsonElement.isJsonObject()) {
+                    System.out.println("try load data");
                     JsonObject jsonObject = jsonElement.getAsJsonObject();
-                    if (jsonObject.has("cards_bg") && jsonObject.get("cards_bg").isJsonArray()) {
-                        JsonArray jsonArray = jsonObject.getAsJsonArray("cards_bg");
+                    if (jsonObject.has("players") && jsonObject.get("players").isJsonArray()) {
+                        JsonArray jsonArray = jsonObject.getAsJsonArray("players");
                         Gson gson = new Gson();
+                        System.out.println("load data continue");
                         players = gson.fromJson(jsonArray, Player[].class);
+                        System.out.println("loaded data: " + players);
                     }
                 }
             } catch (UnsupportedEncodingException ex) {
@@ -79,19 +116,18 @@ public class MainActivity extends AppCompatActivity {
             }
         }else{
             try {
-                //System.out.println("load cards bg from local files");
+                System.out.println("load data from local files");
                 FileReader reader = new FileReader(file);
                 Gson gson = new Gson();
                 JsonParser jsonParser = new JsonParser();
                 JsonElement jsonElement = jsonParser.parse(reader);
-                System.out.println("is obj json : "+ jsonElement.isJsonArray());
                 players = gson.fromJson(jsonElement, Player[].class);
-                //System.out.println("load successful");
+                System.out.println("loaded data: " + players);
             } catch (IOException ex) {
                 throw new RuntimeException(ex);
             }
-
-
         }
     }
+
+
 }

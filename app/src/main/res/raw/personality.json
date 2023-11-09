@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "questions_text": "Questions text",
+      "answer_var": [
+        {
+          "answer_text": "Answer text",
+          "is_true": true
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        }
+      ]
+    },
+    {
+      "questions_text": "Questions text1",
+      "answer_var": [
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": true
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        }
+      ]
+    },
+    {
+      "questions_text": "Questions text2",
+      "answer_var": [
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": true
+        },
+        {
+          "answer_text": "Answer text",
+          "is_true": false
+        }
+      ]
+    }
+  ]
+}
