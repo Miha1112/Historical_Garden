@@ -6,11 +6,11 @@ import static com.dev.galagan.historicalgarden.MainActivity.questionsTheme;
 import static com.dev.galagan.historicalgarden.MainActivity.score;
 import static com.dev.galagan.historicalgarden.MainActivity.student_name;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
+import android.app.Dialog;
 import android.content.pm.ActivityInfo;
 import android.graphics.Color;
-import android.graphics.PorterDuff;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.os.CountDownTimer;
 import android.view.View;
@@ -30,7 +30,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
 
-public class PlayActivity extends AppCompatActivity {
+public class PlayActivity extends Activity {
     private int position_in_questions_array = 0;
     Integer[] btnArray = {R.id.quest_answer,R.id.quest_answer1,R.id.quest_answer2,R.id.quest_answer3};
 
@@ -111,16 +111,7 @@ public class PlayActivity extends AppCompatActivity {
         answer_btn2.setOnClickListener(clickListenerAnswers);
         answer_btn3.setOnClickListener(clickListenerAnswers);
         answer_btn4.setOnClickListener(clickListenerAnswers);
-
-        answer_btn1.setBackgroundColor(Color.GRAY);
-        answer_btn2.setBackgroundColor(Color.GRAY);
-        answer_btn3.setBackgroundColor(Color.GRAY);
-        answer_btn4.setBackgroundColor(Color.GRAY);
-
-        answer_btn1.setTextColor(Color.WHITE);
-        answer_btn2.setTextColor(Color.WHITE);
-        answer_btn3.setTextColor(Color.WHITE);
-        answer_btn4.setTextColor(Color.WHITE);
+        setActionBtn();
 
     }
 
@@ -141,6 +132,16 @@ public class PlayActivity extends AppCompatActivity {
             }
         }
     };
+    private void setActionBtn(){
+        Answer[] answers = questionsArray[position_in_questions_array].getQuestions_answer();
+        for (int j =0; j<4;j++){
+            if (answers[j].isIs_true()){
+                findViewById(btnArray[j]).setBackground(getResources().getDrawable(R.drawable.btn_true));
+            }else{
+                findViewById(btnArray[j]).setBackground(getResources().getDrawable(R.drawable.btn_wrong));
+            }
+        }
+    }
 
     private void toNextQuestions(){
         position_in_questions_array++;
@@ -163,7 +164,24 @@ public class PlayActivity extends AppCompatActivity {
         }
     }
 
-    private void toMenu(){
+    private void close(){
         finish();
+    }
+
+    private void toMenu(){
+        final Dialog final_dialog = new Dialog(PlayActivity.this);
+        final_dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        final_dialog.setCancelable(false);
+        final_dialog.setContentView(R.layout.dialog_after_play);
+        final_dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+
+        Button closeBtn = final_dialog.findViewById(R.id.closeBtn);
+        closeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                close();
+            }
+        });
+        final_dialog.show();
     }
 }

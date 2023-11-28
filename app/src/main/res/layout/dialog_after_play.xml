@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="900px"
+        android:layout_height="1000px"
+        android:layout_marginTop="70px"
+        android:background="@drawable/dialog_bg"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/main_content">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60px"
+            android:layout_centerHorizontal="true">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/main_dialog_text"
+            android:text="Вітаю!\n Ваш бал за категорію"
+            android:textAlignment="center"
+            android:textSize="14pt"
+            android:textColor="@color/white"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/categoryName"
+                android:text="Default category name"
+                android:layout_below="@id/main_dialog_text"
+                android:textStyle="italic"
+                android:textColor="#ffffff"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="70px"
+                android:textSize="14pt"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="70px"
+                android:id="@+id/scoreShow"
+                android:text="100"
+                android:layout_below="@id/categoryName"
+                android:textSize="17pt"
+                android:layout_centerHorizontal="true"
+                android:textColor="#10DF32"
+                android:textStyle="bold"/>
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="300px"
+            android:layout_height="130px"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="100px"
+            android:text="Close"
+            android:textSize="14pt"
+            android:textColor="@color/white"
+            android:id="@+id/closeBtn"
+            android:textAlignment="center"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/def_btn"/>
+
+    </RelativeLayout>
+
+</RelativeLayout>

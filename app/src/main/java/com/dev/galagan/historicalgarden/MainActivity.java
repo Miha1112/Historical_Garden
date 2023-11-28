@@ -1,7 +1,6 @@
 package com.dev.galagan.historicalgarden;
 
-import androidx.appcompat.app.AppCompatActivity;
-
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
 import android.os.Bundle;
@@ -17,17 +16,15 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import org.w3c.dom.Text;
-
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
-import java.net.Inet4Address;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends Activity {
     public static int score = 0;
+    private static Integer[] categoryImg = {};
 
     public static Player[] players;
     private int[] imgArray = {R.id.q_btn,R.id.q_btn2,R.id.q_btn3,R.id.q_btn4};

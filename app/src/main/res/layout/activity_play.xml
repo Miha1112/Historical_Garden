@@ -56,7 +56,6 @@
         android:layout_below="@+id/top_menu"
         android:layout_centerInParent="true"
         >
-
         <TextView
             android:id="@+id/theme_name"
             android:layout_width="wrap_content"
@@ -76,6 +75,7 @@
             android:layout_width="300dp"
             android:layout_height="300dp"
             android:id="@+id/questions_text"
+            android:layout_centerHorizontal="true"
             android:textSize="10pt"
             android:textStyle="normal"
             android:textAlignment="center"
@@ -83,33 +83,42 @@
         <RelativeLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
             android:layout_below="@id/questions_text"
             android:id="@+id/answer_button_block">
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="400px"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_wrong"
                 android:text="answer 1"
+                android:textColor="#000000"
                 android:id="@+id/quest_answer"
                 android:textSize="8pt"/>
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="400px"
                 android:layout_height="wrap_content"
                 android:layout_toEndOf="@id/quest_answer"
+                android:background="@drawable/btn_wrong"
+                android:textColor="#000000"
                 android:layout_marginLeft="40dp"
                 android:text="answer 2"
                 android:id="@+id/quest_answer1"
                 android:textSize="8pt"/>
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="400px"
                 android:layout_height="wrap_content"
                 android:layout_below="@id/quest_answer"
+                android:background="@drawable/btn_wrong"
+                android:textColor="#000000"
                 android:layout_marginTop="20dp"
                 android:text="answer 3"
                 android:id="@+id/quest_answer2"
                 android:textSize="8pt"/>
             <Button
-                android:layout_width="wrap_content"
+                android:layout_width="400px"
                 android:layout_height="wrap_content"
+                android:background="@drawable/btn_wrong"
+                android:textColor="#000000"
                 android:text="answer 4"
                 android:layout_below="@id/quest_answer1"
                 android:layout_marginTop="20dp"
