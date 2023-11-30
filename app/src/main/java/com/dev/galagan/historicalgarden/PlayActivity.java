@@ -26,6 +26,8 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
+import org.w3c.dom.Text;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.UnsupportedEncodingException;
@@ -175,7 +177,25 @@ public class PlayActivity extends Activity {
         final_dialog.setContentView(R.layout.dialog_after_play);
         final_dialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
 
+
+        TextView timerText = final_dialog.findViewById(R.id.timerTextV);
+        int time = 10;
+        timerText.setText(Integer.toString(time));
         Button closeBtn = final_dialog.findViewById(R.id.closeBtn);
+
+
+
+        CountDownTimer timer = new CountDownTimer(10000,1000) {
+            @Override
+            public void onTick(long millisUntilFinished) {
+                timerText.setText(Long.toString(millisUntilFinished/1000));
+            }
+
+            @Override
+            public void onFinish() {
+                close();
+            }
+        };
         closeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -183,5 +203,6 @@ public class PlayActivity extends Activity {
             }
         });
         final_dialog.show();
+        timer.start();
     }
 }
