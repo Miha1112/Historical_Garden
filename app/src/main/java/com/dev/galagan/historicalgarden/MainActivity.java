@@ -1,12 +1,17 @@
 package com.dev.galagan.historicalgarden;
 
 import android.app.Activity;
+import android.app.Dialog;
 import android.content.Intent;
 import android.content.pm.ActivityInfo;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
+import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -28,10 +33,11 @@ public class MainActivity extends Activity {
 
     public static Player[] players;
     private int[] imgArray = {R.id.q_btn,R.id.q_btn2,R.id.q_btn3,R.id.q_btn4};
-    private int[] resArray = {R.raw.personality,R.raw.personality,R.raw.personality,R.raw.personality};
-    private String[] catNameArray = {"Персоналії","Дати","Категорія 3","Категорія 4"};
+    private int[] resArray = {R.raw.date,R.raw.date,R.raw.date,R.raw.date};
+    private String[] catNameArray = {"Дати","Персоналії","Категорія 3","Категорія 4"};
     public static Questions[] questionsArray;
-    public static Integer questionsTheme = R.raw.personality;
+    public static ImgQuestions[] imgQuestionsArray;
+    public static Integer questionsTheme = R.raw.date;
     public static String categoryName = "";
     public static String student_name = "Учень";
     public static int[] last_score = new int[3];
@@ -50,10 +56,43 @@ public class MainActivity extends Activity {
     private void init(){
         jsonParsePlayer();
         TextView player_name = findViewById(R.id.player_name);
+        ImageButton menu = findViewById(R.id.menu_btn);
         player_name.setText(student_name);
         TextView scoreTxt = findViewById(R.id.score_text);
         scoreTxt.setText(Integer.toString(score));
         setClickListener();
+        menu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                final Dialog menu = new Dialog(MainActivity.this);
+                menu.requestWindowFeature(Window.FEATURE_NO_TITLE);
+                menu.setCancelable(true);
+                menu.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+                menu.setContentView(R.layout.menu_layout);
+
+                menu.findViewById(R.id.returnBtn).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        menu.hide();
+                    }
+                });
+                menu.findViewById(R.id.setting).setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        //TODO make settings screen
+                    }
+                });
+                Button exit = menu.findViewById(R.id.exit);
+                exit.setText("Вихід");
+                exit.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        finish();
+                    }
+                });
+                menu.show();
+            }
+        });
 
     }
     private void setClickListener(){

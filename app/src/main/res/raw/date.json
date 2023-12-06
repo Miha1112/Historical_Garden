@@ -1,0 +1,2119 @@
+{
+  "questions": [
+    {
+      "questions_text": "Похід Аскольда на Константинополь, укладання першого відомого договору Русі з Візантією",
+      "answer_var": [
+        {
+          "answer_text" : "860",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "965",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "760",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "865",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Об'єднання північних та південних руських земель Олегом",
+      "answer_var": [
+        {
+          "answer_text" : "881",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "882",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "883",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "884",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Запровадження християнства як державної релігії Русі",
+      "answer_var": [
+        {
+          "answer_text" : "978",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "988",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1008",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "998",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було засновано Київ?",
+      "answer_var": [
+        {
+          "answer_text" : "300р",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "482р",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "344р",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "475р",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбулась Грюнвальдська битва?",
+      "answer_var": [
+        {
+          "answer_text" : "1410",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1415",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1325",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1392",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було проголошено Акт Злуки УНР та ЗУНР?",
+      "answer_var": [
+        {
+          "answer_text" : "22.01.1919",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "25.01.1919",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.08.1991",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "17.01.1918",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбулась Помаранчева революція?",
+      "answer_var": [
+        {
+          "answer_text" : "2001",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2008",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2013",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2004",
+          "is_true" : true
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбулась остаточна ліквідація Січі?\n",
+      "answer_var": [
+        {
+          "answer_text" : "1775",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1779",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1750",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1809",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Кримська війна між Російською імперією та Османською імперією і її союзниками тривала…",
+      "answer_var": [
+        {
+          "answer_text" : "1853-1856",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1853-1860",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1785-1795",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1866-1869",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Дата проголошення незалежності УНР (ІІІ універсал)",
+      "answer_var": [
+        {
+          "answer_text" : "1918",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1919",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1819",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1991",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Анексія Криму росією",
+      "answer_var": [
+        {
+          "answer_text" : "2014",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "2013",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2012",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2015",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Польсько-Українська війна тривала…",
+      "answer_var": [
+        {
+          "answer_text" : "1918-1919",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1918-1920",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1919-1921",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1922-1925",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Проголошення незалежності Карпатської України",
+      "answer_var": [
+        {
+          "answer_text" : "1939",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1940",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Дата створення Української Повстанської Армії(УПА)",
+      "answer_var": [
+        {
+          "answer_text" : "14.10.1942",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "23.02.1945",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.08.1955",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "01.09.1939",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбулась Революція на Граніті",
+      "answer_var": [
+        {
+          "answer_text" : "02.10.1990-17.10.1990",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "25.09.1991-02.10.1991",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "02.10.1992-17.10.1992",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "14.10.1995-17.10.1995",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Чорнобильська катастрофа сталась...",
+      "answer_var": [
+        {
+          "answer_text" : "26.04.1986",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "26.04.1999",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "28.05.1986",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "12.12.1996",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відзначається День Гідності та Свободи в Україні?",
+      "answer_var": [
+        {
+          "answer_text" : "21.11",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "28.11",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.08",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.02",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відзначається День Соборності України?",
+      "answer_var": [
+        {
+          "answer_text" : "22.01",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "24.02",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.08",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "21.11",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було укладено Люблінську Унію?",
+      "answer_var": [
+        {
+          "answer_text" : "1569",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1584",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1545",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було проголошено Декларацію про державний суверенітет України?",
+      "answer_var": [
+        {
+          "answer_text" : "16.07.1990",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "24.08.1991",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "15.05.1996",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "01.12.1990",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Хмельниччина тривала:",
+      "answer_var": [
+        {
+          "answer_text" : "1648-1657",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1648-1660",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1650-1665",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1657-1667",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли була утворена перша Січ?",
+      "answer_var": [
+        {
+          "answer_text" : "1554",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1551",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1601",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відзначається день Пам’яті Героїв Небесної Сотні?",
+      "answer_var": [
+        {
+          "answer_text" : "20.02",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "24.08",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "25.02",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "27.10",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було проголошено Акт відновлення незалежності України?",
+      "answer_var": [
+        {
+          "answer_text" : "30.06.1941",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "24.08.1991",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "21.11.1990",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.02.1919",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "У якому році відбулася Гадяцька угода?",
+      "answer_var": [
+        {
+          "answer_text" : "1658",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1660",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1663",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1654",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли було проведено Корсунь-Шевченківську битву?",
+      "answer_var": [
+        {
+          "answer_text" : "24.01.1944-17.02.1944",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "25.12.1943-17.02.1944",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "24.02.1943-03.03.1944",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "01.10.1942-05.10.1942",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли сталася битва під Крутами?",
+      "answer_var": [
+        {
+          "answer_text" : "1918",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1919",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1920",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1921",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "У якому році було створено Кирило-Мефодіївське братство?",
+      "answer_var": [
+        {
+          "answer_text" : "1846",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1847",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1833",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1865",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбувся з'їзд українських націоналістів у Відні?",
+      "answer_var": [
+        {
+          "answer_text" : "1929",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1939",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Період командування Нестора Махна",
+      "answer_var": [
+        {
+          "answer_text" : "1918-1921",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1917-1923",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1915-1921",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1918-1922",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "У якому році було створено Галицько-Волинську державу?",
+      "answer_var": [
+        {
+          "answer_text" : "1199",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1205",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1210",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1207",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли відбулась Революція Гідності?",
+      "answer_var": [
+        {
+          "answer_text" : "листопад 2013 - лютий 2014",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "грудень 2013-березень 2014",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "листопад 2013 - квітень 2014",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "листопад 2012-лютий 2013",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Коли розпочалась антитерористична операція(АТО) на сході України?",
+      "answer_var": [
+        {
+          "answer_text" : "14.04.2014",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "24.02.2014",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "30.11.2013",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "14.10.2013",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Початок повномасштабного вторгнення росії на територію України",
+      "answer_var": [
+        {
+          "answer_text" : "24.02.2022",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "14.04.2014",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "03.03.2022",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "15.12.2021",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Битва біля м. Орша",
+      "answer_var": [
+        {
+          "answer_text" : "1514",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1518",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1501",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1522",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Створення Пересопницького Євангелія",
+      "answer_var": [
+        {
+          "answer_text" : "1556-1561",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1558-1563",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1550-1555",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1648-1654",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Перший Литовський статут",
+      "answer_var": [
+        {
+          "answer_text" : "1529",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1542",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1604",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1503",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Другий Литовський статут (урівнення в правах боярства-шляхти з князівсько-магнатською аристократією; виборні суди; система повітових сеймиків)",
+      "answer_var": [
+        {
+          "answer_text" : "1566",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1588",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1555",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1544",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Реєстрове козацтво Сигізмунда Августа",
+      "answer_var": [
+        {
+          "answer_text" : "1572",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1583",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1594",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1561",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Видання книг І. Федорова «Апостол» та «Буквар» (перший друкований підручник для навчання грамоти)",
+      "answer_var": [
+        {
+          "answer_text" : "1574",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1584",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1594",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1564",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Похід І. Підкови на Молдову",
+      "answer_var": [
+        {
+          "answer_text" : "1577-1578",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1576-1577",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1578-1579",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1577-1579",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Козацька реформа Стефана Баторія (600 осіб реєстровців)",
+      "answer_var": [
+        {
+          "answer_text" : "1578",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1588",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1598",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1568",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Видання Острозької Біблії І. Федорова",
+      "answer_var": [
+        {
+          "answer_text" : "1581",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1591",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1587",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1598",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Запровадження григоріанського календаря (папа Григорій XIII)",
+      "answer_var": [
+        {
+          "answer_text" : "1582",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1583",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1588",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1592",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Третій Литовський статут (селяни, що прожили понад 10 років у пана, ставали кріпаками)",
+      "answer_var": [
+        {
+          "answer_text" : "1588",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1598",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1568",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1574",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "«Порядок щодо козаків та України» (у випадку війни з Туреччиною кількість реєстровців зростає, заборона селянам іти на Запоріжжя)",
+      "answer_var": [
+        {
+          "answer_text" : "1590",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1591",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1602",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1584",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Вихід твору Л. Зизанія «Адельфотес» ",
+      "answer_var": [
+        {
+          "answer_text" : "1591",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1584",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1602",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1584",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Повстання Криштофа Косинського (охоплення району Білої Церкви, Черкас, Канева; поразка повсталих від військ В.-К. Острозького під П’яткою)",
+      "answer_var": [
+        {
+          "answer_text" : "1591-1593",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1591-1597",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1591-1596",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1591-1598",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Повстання С. Наливайка (поразка від військ С. Жолкевського в Солоницькій битві поблизу Лубен; страчений у Варшаві)",
+      "answer_var": [
+        {
+          "answer_text" : "1596",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1598",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1597",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1603",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Заснування Київського Богоявленського братства (вступ П. Конашевича-Сагайдачного з Кошем Запорозьким)",
+      "answer_var": [
+        {
+          "answer_text" : "1615",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1695",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1674",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Здобуття козаками П. Конашевича-Сагайдачного м. Кафи (сучасна Феодосія) де розташовувався невільничий ринок",
+      "answer_var": [
+        {
+          "answer_text" : "1616",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1617",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1620",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1623",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Похід козаків під проводом П. Конашевича-Сагайдачного на Москву; підписання Деулінських угод; Річ Посполита отримала Чернігово-Сіверщину та Смоленщину",
+      "answer_var": [
+        {
+          "answer_text" : "1618",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1615",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1616",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1624",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Битва під Цецорою (поразка С. Жолкевського від Туреччини)",
+      "answer_var": [
+        {
+          "answer_text" : "1620",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1623",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1624",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1625",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Відновлення вищої православної церковної ієрархії; висвячення Феофаном на посаду митрополита Йова Борецького (з ініціативи П. Конашевича-Сагайдачного)",
+      "answer_var": [
+        {
+          "answer_text" : "1620",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1623",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1624",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1625",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Хотинська війна (участь військ гетьмана П. Конашевича-Сагайдачного проти Османської імперії разом із військами С. Жолкевського; поразка Османа у війні)",
+      "answer_var": [
+        {
+          "answer_text" : "1621",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1623",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1624",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1625",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Куруківська угода (протистояння С. Конєцпольського з військами М. Жмайла поблизу м. Бар; створення 6 полків реєстровців)",
+      "answer_var": [
+        {
+          "answer_text" : "1625",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1630",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1635",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1640",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Заснування П. Могилою Лаврської школи",
+      "answer_var": [
+        {
+          "answer_text" : "1631",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1634",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1635",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1640",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "«Пункти для заспокоєння руського народу»",
+      "answer_var": [
+        {
+          "answer_text" : "1632",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1634",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1635",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1640",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Києво-Могилянської колегії",
+      "answer_var": [
+        {
+          "answer_text" : "1632",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1634",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1635",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1645",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Повстання під проводом Павла Павлюка, Якова Острянина, Дмитра Гун",
+      "answer_var": [
+        {
+          "answer_text" : "1637-1638",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1635-1637",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1638-1640",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1637-1640",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "«Золотий спокій»; зародження невдоволення українців польською владою",
+      "answer_var": [
+        {
+          "answer_text" : "1638-1648",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1648-1658",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1658-1668",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1645-1658",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Битва під Жовтими Водами",
+      "answer_var": [
+        {
+          "answer_text" : "травень 1648",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "червень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "вересень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "грудень 1648",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Битва під Корсунем (розгром 20-тисячних військ М. Потоцького)",
+      "answer_var": [
+        {
+          "answer_text" : "травень 1648",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "червень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "вересень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "грудень 1648",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Битва під Пилявцями; оголошення «посполитого рушення» (шляхетського ополчення)",
+      "answer_var": [
+        {
+          "answer_text" : "вересень 1648",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "червень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "травень 1648",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "грудень 1648",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Зборівська битва, Зборівський договір (під владою гетьмана – Київське, Брацлавське, Чернігівське воєводства,; кількість реєстровців – 40 тисяч)",
+      "answer_var": [
+        {
+          "answer_text" : "1649",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1650",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1655",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1684",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Берестецька битва, Білоцерківський  договір (під владою гетьмана – Київщина, кількість реєстровців – 20 тисяч; поляки повертаються на свої землі)",
+      "answer_var": [
+        {
+          "answer_text" : "1651",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1655",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1641",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1632",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Батозька битва (помста за Берестечко)",
+      "answer_var": [
+        {
+          "answer_text" : "1652",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1655",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1685",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1666",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Видання «Енеїди» І. Котляревського",
+      "answer_var": [
+        {
+          "answer_text" : "1798",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1788",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1802",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1804",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Відкриття університету в Києві (Університет святого Володимира, ректор М. Максимович)",
+      "answer_var": [
+        {
+          "answer_text" : "1834",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1864",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1874",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1895",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Впровадження в Австро-Угорській імперії виборчого права для чоловіків",
+      "answer_var": [
+        {
+          "answer_text" : "1907",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1910",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1914",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1918",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Створення Товариства українських поступовців (ТУП)",
+      "answer_var": [
+        {
+          "answer_text" : "1908",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1914",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1905",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1918",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "«Брусиловський прорив»",
+      "answer_var": [
+        {
+          "answer_text" : "1916",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1917",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1914",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1918",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Української Центральної Ради (УЦР)",
+      "answer_var": [
+        {
+          "answer_text" : "1917",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1918",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1919",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1920",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Директорії (голова – В. Винниченко)",
+      "answer_var": [
+        {
+          "answer_text" : "1918",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1917",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1919",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1920",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Холодноярська республіка",
+      "answer_var": [
+        {
+          "answer_text" : "1919-1922",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1918-1924",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1918-1935",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1919-1925",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Підписання Бессарабського протоколу, визнання країнами Антанти входження Бессарабії до складу Румунії",
+      "answer_var": [
+        {
+          "answer_text" : "1920",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1922",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1924",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1930",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Заснування Таємного університету у Львові",
+      "answer_var": [
+        {
+          "answer_text" : "1921",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1922",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1924",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Української автокефальної православної церкви (УАПЦ)",
+      "answer_var": [
+        {
+          "answer_text" : "1921",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1922",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1991",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Проголошення коренізації (українізації)",
+      "answer_var": [
+        {
+          "answer_text" : "1923",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1925",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1935",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Визнання країнами Антанти входження Східної Галичини до складу Польщі, саморозпуск уряду ЗУНР",
+      "answer_var": [
+        {
+          "answer_text" : "1923",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1925",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1939",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1935",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Проголошення курсу на індустріалізацію",
+      "answer_var": [
+        {
+          "answer_text" : "1925",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1926",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1927",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Українського національно-демократичного об’єднання (УНДО)",
+      "answer_var": [
+        {
+          "answer_text" : "1925",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1926",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1927",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Судовий процес у «Шахтинській справі»",
+      "answer_var": [
+        {
+          "answer_text" : "1928",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1926",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1927",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Початок насильницької колективізації. Форсована індустріалізація. Будівництво Київської кіностудії ",
+      "answer_var": [
+        {
+          "answer_text" : "1929",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1926",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1927",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Організації українських націоналістів (ОУН)",
+      "answer_var": [
+        {
+          "answer_text" : "1929",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1926",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Судовий процес Спілки визволення України (СВУ)",
+      "answer_var": [
+        {
+
+          "answer_text" : "1930",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1952",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Проведення польською владою акції «пацифікації» (Східна Галичина)",
+      "answer_var": [
+        {
+
+          "answer_text" : "1930",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1933",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1952",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Перенесення столиці УСРР з Харкова до Києва. Створення Спілки письменників України; ліквідація літературних об’єднань. Арешт і розправа над українськими кобзарями в Харкові",
+      "answer_var": [
+        {
+
+          "answer_text" : "1934",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1935",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1936",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1952",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Ухвалення Конституції УРСР (нова (Сталінська) Конституція УРСР)",
+      "answer_var": [
+        {
+
+          "answer_text" : "1937",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1941",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1945",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1955",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "«Великий терор» («Розстріляне відродження»)",
+      "answer_var": [
+        {
+
+          "answer_text" : "1937-1938",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1941-1945",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1945-1952",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1939-1945",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Друга хвиля масових затримань діячів антирежимного руху",
+      "answer_var": [
+        {
+
+          "answer_text" : "1972",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1978",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1985",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1991",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Української громадської групи сприяння виконанню Гельсінських угод (УГГ)",
+      "answer_var": [
+        {
+
+          "answer_text" : "1976",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1978",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1986",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1990",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Запровадження продажу товарів за картками споживача з купонами",
+      "answer_var": [
+        {
+
+          "answer_text" : "1990",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "2004",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2008",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1984",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Обрання України членом Ради Європи",
+      "answer_var": [
+        {
+
+          "answer_text" : "1995",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1996",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2014",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1989",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Вступ України до Світової організації торгівлі (СОТ)",
+      "answer_var": [
+        {
+
+          "answer_text" : "2008",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "2005",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2004",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2015",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Підписання Україною Угоди про асоціацію з Європейським Союзом (ЄС)",
+      "answer_var": [
+        {
+
+          "answer_text" : "2014",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "2013",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2022",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "2015",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Мінські домовленості",
+      "answer_var": [
+        {
+
+          "answer_text" : "вересень 2014 та лютий 2015",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "січень 2014 та лютий 2015",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "листопад 2014 та лютий 2015",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "вересень 2014 та березень2015",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Утворення Української робітничо-селянської спілки",
+      "answer_var": [
+        {
+
+          "answer_text" : "1959",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1998",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1978",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1965",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Створення Клубу творчої молоді «Сучасник» м. Київ",
+      "answer_var": [
+        {
+
+          "answer_text" : "1959",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1998",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1978",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1965",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "questions_text": "Видання «самвидавного» журналу «Український вісник»",
+      "answer_var": [
+        {
+
+          "answer_text" : "1970-1972",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "1970-1976",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1970-1975",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "1972-1974",
+          "is_true" : false
+        }
+      ]
+    }
+  ]
+}

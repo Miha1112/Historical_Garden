@@ -1,0 +1,571 @@
+{
+  "questions": [
+    {
+      "person_ind": "1",
+      "answer_var": [
+        {
+          "answer_text" : "Володимир Великий",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Ярослав Мудрий",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Володимир Мономах",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "хан Батий",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "2",
+      "answer_var": [
+        {
+
+          "answer_text" :"Ярослав Мудрий",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Володимир Мономах",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Мамай",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Богдан Хмельницький",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "3",
+      "answer_var": [
+        {
+
+          "answer_text" :"Леся Українка",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олена Пчілка",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Марко Вовчок",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Ольга Кобилянська",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "4",
+      "answer_var": [
+        {
+
+          "answer_text" :"Тарас Шевченко",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Котляревський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Марко Вовчок",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Григорій Сковорода",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "5",
+      "answer_var": [
+        {
+
+          "answer_text" :"Богдан Хмельницький",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Юрій Хмельницький",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Виговський",
+          "is_true" : false
+        }
+      ]
+    },{
+      "person_ind": "6",
+      "answer_var": [
+        {
+
+          "answer_text" :"Іван Франко",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Котляревський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Марко Вовчок",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Григорій Сковорода",
+          "is_true" : false
+        }
+      ]
+    },{
+      "person_ind": "7",
+      "answer_var": [
+        {
+
+          "answer_text" :"Петро Могила",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іпатій",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Б.Хмельницький",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        }
+      ]
+    },{
+      "person_ind": "8",
+      "answer_var": [
+        {
+
+          "answer_text" :"Григорій Сковорода",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Тарас Шевченко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Петро Могила",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        }
+      ]
+    },{
+      "person_ind": "9",
+      "answer_var": [
+        {
+
+          "answer_text" :"Іван Мазепа",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Тарас Шевченко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Богдан Хмельницький",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Григорій Сковорода",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "10",
+      "answer_var": [
+        {
+
+          "answer_text" :"Михайло Грушевський",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Симон Петлюра",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Володимир Винниченко",
+          "is_true" : false
+        }
+      ]
+    },
+      {
+      "person_ind": "11",
+      "answer_var": [
+        {
+
+          "answer_text" :"Симон Петлюра",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Володимир Винниченко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Михайло Грушевський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Тарас Шевченко",
+          "is_true" : false
+        }
+      ]
+    },
+    {
+      "person_ind": "12",
+      "answer_var": [
+        {
+
+          "answer_text" :"Олександр Довженко",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олександр Олесь",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Тарас Шевченко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Франко",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "13",
+      "answer_var": [
+        {
+
+          "answer_text" :"Левко Ревуцький",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олександр Довженко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "В’ячеслав Овчинников",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Микола Хвильовий",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "14",
+      "answer_var": [
+        {
+
+          "answer_text" :"Степан Бандера",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Симон Петлюра",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Олександр Олесь",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "15",
+      "answer_var": [
+        {
+
+          "answer_text" :"Іван Сірко",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Виговський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Богдан Хмельницький",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "16",
+      "answer_var": [
+        {
+
+          "answer_text" :"Василь Стус",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олександр Довженко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Василь Симоненко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Дзюба",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "17",
+      "answer_var": [
+        {
+
+          "answer_text" :"Олександр Олесь",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олександр Довженко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Василь Симоненко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Дзюба",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "18",
+      "answer_var": [
+        {
+
+          "answer_text" :"Степан Руданський",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Олександр Довженко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Степан Бандера",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Дзюба",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "19",
+      "answer_var": [
+        {
+
+          "answer_text" :"Петро Конашевич-Сагайдачний",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Сірко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Виговський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Юрій Хмельницький",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "20",
+      "answer_var": [
+        {
+
+          "answer_text" :"Іван Котляревський",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Франко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Степан Руданський",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "21",
+      "answer_var": [
+        {
+
+          "answer_text" :"Остап Вишня",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Франко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Степан Руданський",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "22",
+      "answer_var": [
+        {
+
+          "answer_text" :"Павло Чубинський",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Франко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Степан Руданський",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "23",
+      "answer_var": [
+        {
+
+          "answer_text" :"Ігор Сікорський",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Леонтій Шептицький",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Борис Патон",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "24",
+      "answer_var": [
+        {
+
+          "answer_text" :"Соломія Крушельницька",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Марина Цвєтаєва",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Марія Заньковецька",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Марко Вовочк",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "25",
+      "answer_var": [
+        {
+
+          "answer_text" :"Сергій Корольов",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Ігор Сікорський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван  Полюй",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Григір Тютюнник",
+          "is_true" : false
+        }
+      ]
+    },
+{
+      "person_ind": "26",
+      "answer_var": [
+        {
+
+          "answer_text" :"Іван Карпенко-Карий",
+          "is_true" : true
+        },
+        {
+          "answer_text" : "Іван Франко",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Котляревський",
+          "is_true" : false
+        },
+        {
+          "answer_text" : "Іван Мазепа",
+          "is_true" : false
+        }
+      ]
+    }
+    ]
+}

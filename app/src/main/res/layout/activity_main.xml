@@ -11,11 +11,12 @@
         android:id="@+id/top_menu"
         android:background="#E7E7E7"
         android:layout_height="wrap_content">
-        <ImageView
+        <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/menu_btn"
             android:layout_alignParentStart="true"
+            android:background="@drawable/def_btn"
             android:paddingLeft="5dp"
             android:src="@drawable/menu_spr"/>
         <TextView
