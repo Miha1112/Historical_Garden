@@ -6,7 +6,7 @@ public class ImgQuestions {
     private int ind_img;
     private Integer resource;
 
-    public ImgQuestions(Answer[] answer_var, String person_ind) {
+    public ImgQuestions( String person_ind, Answer[] answer_var) {
         this.answer_var = answer_var;
         this.person_ind = person_ind;
     }
@@ -40,6 +40,7 @@ public class ImgQuestions {
     }
 
     private void getResourceInd(){
+        System.out.println(ind_img + " person ind " + " " + person_ind);
         ind_img = Integer.parseInt(person_ind);
         switch (ind_img){
             case 1:

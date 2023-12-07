@@ -49,6 +49,7 @@ public class PlayActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_play);
         init();
@@ -160,8 +161,8 @@ public class PlayActivity extends Activity {
                 if (jsonObject.has("questions") && jsonObject.get("questions").isJsonArray()) {
                     JsonArray jsonArray = jsonObject.getAsJsonArray("questions");
                     Gson gson = new Gson();
-                    questionsArray = gson.fromJson((JsonElement) jsonArray, (Type) ImgQuestions[].class);
-                    System.out.println("loaded data: "+questionsArray);
+                    imgQuestionsArray = gson.fromJson((JsonElement) jsonArray, (Type) ImgQuestions[].class);
+                    System.out.println("loaded data: "+imgQuestionsArray);
                 }
             }
         } catch (UnsupportedEncodingException ex) {
@@ -185,6 +186,7 @@ public class PlayActivity extends Activity {
     }
     private void setQuestImg(){
         ImageView questImg = findViewById(R.id.personalityImg);
+        System.out.println("person ind = " + imgRandomQuest[position_in_questions_array].getPerson_ind());
         Integer img = imgRandomQuest[position_in_questions_array].getResource();
         questImg.setImageDrawable(getResources().getDrawable(img));
     }
@@ -193,11 +195,11 @@ public class PlayActivity extends Activity {
         //initialised questions variables
         Answer[] answers_array = new Answer[4];
         TextView questions_text = findViewById(R.id.questions_text);
-        String quest_text = randomQuest[position].getQuestions_text();
 
         scoreTxt.setText(Integer.toString(score));
 
         if (questMode == 1){
+            String quest_text = randomQuest[position].getQuestions_text();
             answers_array = randomQuest[position].getQuestions_answer();
             questions_text.setText(quest_text);
         }else if (questMode == 2){
@@ -215,6 +217,7 @@ public class PlayActivity extends Activity {
         Boolean endWhile = false;
         int i = 0;
         while (endWhile == false){
+            System.out.println("infinity while");
             int randPos = (int) (Math.random()*(i-4)+4);
             String answer = answers_array[randPos].getAnswer_text();
             for (int j = 0;j<setQ.length;j++){
@@ -261,7 +264,12 @@ public class PlayActivity extends Activity {
         }
     };
     private void setActionBtn(){
-        Answer[] answers = randomQuest[position_in_questions_array].getQuestions_answer();
+        Answer[] answers = new Answer[4];
+        if (questMode == 1){
+            answers = randomQuest[position_in_questions_array].getQuestions_answer();
+        }else if(questMode == 2){
+            answers = imgRandomQuest[position_in_questions_array].getAnswer_var();
+        }
         for (int j =0; j<4;j++){
             if (answers[j].isIs_true()){
                 findViewById(btnArray[j]).setBackground(getResources().getDrawable(R.drawable.btn_true));

@@ -33,7 +33,7 @@ public class MainActivity extends Activity {
 
     public static Player[] players;
     private int[] imgArray = {R.id.q_btn,R.id.q_btn2,R.id.q_btn3,R.id.q_btn4};
-    private int[] resArray = {R.raw.date,R.raw.date,R.raw.date,R.raw.date};
+    private int[] resArray = {R.raw.date,R.raw.person,R.raw.date,R.raw.date};
     private String[] catNameArray = {"Дати","Персоналії","Категорія 3","Категорія 4"};
     public static Questions[] questionsArray;
     public static ImgQuestions[] imgQuestionsArray;
@@ -48,6 +48,7 @@ public class MainActivity extends Activity {
         requestWindowFeature(Window.FEATURE_NO_TITLE);
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_HIDE_NAVIGATION);
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_main);
         init();
